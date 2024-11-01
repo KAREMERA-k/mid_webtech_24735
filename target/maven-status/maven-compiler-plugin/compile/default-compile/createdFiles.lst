@@ -1,0 +1,12 @@
+com\auca\library\controller\UserController.class
+com\auca\library\model\Location.class
+Main.class
+com\auca\library\controller\LocationController.class
+com\auca\library\model\Book.class
+com\auca\library\service\BookService.class
+com\auca\library\util\DatabaseUtil.class
+com\auca\library\service\FineService.class
+com\auca\library\service\AuthService.class
+com\auca\library\service\LocationService.class
+com\auca\library\controller\BookController.class
+com\auca\library\model\User.class
