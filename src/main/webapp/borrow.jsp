@@ -11,8 +11,8 @@
         <form action="BookController" method="post">
             <input type="hidden" name="action" value="borrow">
 
-            <label for="userId">User ID:</label>
-            <input type="text" id="userId" name="userId" required>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" value="<%= session.getAttribute("username") %>" readonly>
 
             <label for="bookId">Book ID:</label>
             <input type="text" id="bookId" name="bookId" required>
